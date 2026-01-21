@@ -9,9 +9,13 @@ try:
 except ValueError as e:
     print("Caught an error:", e)
 
-# ========================================================================
+# O.P: 
+# Caught an error: Cannot divide by zero!
 
-# Define a custom exception class
+## ========================================================================
+
+## Define a custom exception class
+## -------------------------------
 class NegativeNumberError(Exception):
     def __init__(self, message="Negative numbers are not allowed"):
         self.message = message
@@ -29,11 +33,11 @@ try:
 except NegativeNumberError as e:
     print("Caught a custom exception:", e)
 	
-# =================================================================================
+## =================================================================================
 
-# Exception Raise Chain
-# --------------------------------
-# Define a custom exception class
+## Exception Raise Chain
+## --------------------------------
+## Define a custom exception class
 class NegativeNumberError(Exception):
     def __init__(self, message="Negative numbers are not allowed"):
         self.message = message
