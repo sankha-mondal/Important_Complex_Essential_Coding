@@ -103,7 +103,6 @@ def square_root(x):
         raise NegativeNumberError(f"Cannot calculate square root of negative number: {x}")
     return x ** 0.5
 
-
 def call_fun_3(num):
     try:
         print(square_root(num))
@@ -111,14 +110,12 @@ def call_fun_3(num):
         print("call_fun_3")
         raise NegativeNumberError(e)
 
-
 def call_fun_2(num):
     try:
         call_fun_3(num)
     except NegativeNumberError as e:
         print("call_fun_2")
         raise e
-
 
 def call_fun_1(num):
     try:
