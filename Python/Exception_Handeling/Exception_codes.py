@@ -127,8 +127,17 @@ def call_fun_1(num):
         print("call_fun_1")
         print(e)
 
-
-call_fun_1(0)
-call_fun_1(-3)
-
-
+# O.p:
+'''
+	call_fun_1(0)
+	call_fun_1(-3)
+	
+	call_fun_3
+	call_fun_2
+	call_fun_1
+	Cannot divide by zero!
+	call_fun_3
+	call_fun_2
+	call_fun_1
+	Cannot calculate square root of negative number: -3
+'''
