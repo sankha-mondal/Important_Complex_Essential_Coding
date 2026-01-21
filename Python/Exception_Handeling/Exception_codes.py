@@ -9,7 +9,7 @@ try:
 except ValueError as e:
     print("Caught an error:", e)
 
-# O.P: 
+# O.p- 
 # Caught an error: Cannot divide by zero!
 
 ## ========================================================================
@@ -32,6 +32,10 @@ try:
     print(square_root(-4))  # Raises NegativeNumberError
 except NegativeNumberError as e:
     print("Caught a custom exception:", e)
+
+# O.p-
+# 3.0
+# Caught a custom exception: Cannot calculate square root of negative number: -4
 	
 ## =================================================================================
 
@@ -71,6 +75,14 @@ def call_fun_1(num):
         print(e)
 		
 call_fun_1(-3)
+
+# O.p-
+'''
+	call_fun_3
+	call_fun_2
+	call_fun_1
+	Cannot calculate square root of negative number: -3
+'''
 
 # ==================================================================================
 
