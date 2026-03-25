@@ -4,8 +4,8 @@ public class Move_All_Zeroes_to_End {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// int[] arr = {2, 0, 8, 0, 1, 4, 0};
-		int[] arr = {0, 0, 0};
+		int[] arr = {2, 0, 8, 0, 1, 4, 0};
+		// int[] arr = {0, 0, 0};
 		
 		int[] arrc = new int[arr.length];
 		int j = 0;
@@ -21,7 +21,7 @@ public class Move_All_Zeroes_to_End {
 		}
 		
 		for (int i=0;i<arrc.length;i++) {
-			System.out.print(arrc[i] + " ");
+			System.out.print(arrc[i] + " ");   // Op: 2 8 1 4 0 0 0 
 		}
 		
 	}
